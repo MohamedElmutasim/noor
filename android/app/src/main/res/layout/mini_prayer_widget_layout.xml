@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/mini_prayer_widget_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/widget_bg_gradient"
+    android:gravity="center"
+    android:orientation="horizontal"
+    android:paddingStart="12dp"
+    android:paddingTop="4dp"
+    android:paddingEnd="12dp"
+    android:paddingBottom="4dp">
+
+    <!-- اسم الصلاة القادمة -->
+    <TextView
+        android:id="@+id/mini_prayer_name"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="الفجر"
+        android:textColor="#FFFFFF"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+    <!-- فاصل عمودي ناعم وأنيق متاح ومتوافق مع RemoteViews -->
+    <ImageView
+        android:id="@+id/mini_prayer_divider"
+        android:layout_width="1dp"
+        android:layout_height="18dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:background="#4DFFFFFF"
+        android:contentDescription="@null" />
+
+    <!-- توقيت الصلاة القادمة -->
+    <TextView
+        android:id="@+id/mini_prayer_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="05:10 ص"
+        android:textColor="#E0FFFFFF"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+</LinearLayout>

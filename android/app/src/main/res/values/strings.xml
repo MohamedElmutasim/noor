@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">نور</string>
+    <string name="widget_name">أسماء الله الحسنى</string>
+    <string name="prayer_widget_name">مواقيت الصلاة</string>
+    <string name="mini_prayer_widget_name">موعد الصلاة القادمة</string>
+</resources>

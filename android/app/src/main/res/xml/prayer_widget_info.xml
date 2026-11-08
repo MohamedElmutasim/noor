@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<appwidget-provider xmlns:android="http://schemas.android.com/apk/res/android"
+    android:description="@string/prayer_widget_name"
+    android:initialKeyguardLayout="@layout/prayer_widget_layout"
+    android:initialLayout="@layout/prayer_widget_layout"
+    android:minWidth="130dp"
+    android:minHeight="60dp"
+    android:previewImage="@mipmap/launcher_icon"
+    android:resizeMode="horizontal|vertical"
+    android:updatePeriodMillis="1800000"
+    android:widgetCategory="home_screen|keyguard">
+</appwidget-provider>
